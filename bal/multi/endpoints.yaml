@@ -1,0 +1,12 @@
+# +required Version of the endpoint configuration YAML
+version: 0.1
+
+endpoints:
+- name: multi-port-service 8081
+  port: 8081
+  type: REST
+  networkVisibility: Project
+- name: multi-port-service 8082
+  port: 8082
+  type: REST
+  networkVisibility: Project
