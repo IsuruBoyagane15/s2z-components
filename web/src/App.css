@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-button {
+  margin-left: 10px;
+  background-color: #4e0d80;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button {
+  margin-right: 5px;
+  background-color: #ac2323;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wishlist-button {
+  margin-right: 5px;
+  background-color: #386108;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}
+
+.actions {
+  display: flex;
+}
