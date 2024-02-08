@@ -6,7 +6,7 @@ http:Client barEp = check new(os:getEnv("BAR_EP"));
 
 service / on new http:Listener(9090) {
     resource function get .() returns string|error {
-        return "Hello, I am foo running in 9090...!";
+        return "Hello, I am foo running in 9090 new commit...!";
     }
 
     resource function get callBar() returns string|error {
