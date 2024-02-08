@@ -4,9 +4,9 @@ import ballerina/http;
 http:Client barEp = check new(os:getEnv("BAR_EP"));
 // http:Client diseaseEp = check new(os:getEnv("DISEASE_EP")); // https://disease.sh/v3/covid-19
 
-service / on new http:Listener(8100) {
+service / on new http:Listener(8120) {
     resource function get .() returns string|error {
-        return "Hello, I am foo running in 8100...!";
+        return "Hello, I am foo running in 8120...!";
     }
 
     resource function get callBar() returns string|error {
