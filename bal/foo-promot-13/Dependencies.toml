@@ -284,7 +284,7 @@ modules = [
 
 [[package]]
 org = "isuru"
-name = "foo_wrong_port"
+name = "thirteen"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -292,6 +292,6 @@ dependencies = [
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "isuru", packageName = "foo_wrong_port", moduleName = "foo_wrong_port"}
+	{org = "isuru", packageName = "thirteen", moduleName = "thirteen"}
 ]
 
