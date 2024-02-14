@@ -1,8 +1,8 @@
 [package]
 org = "isuru"
-name = "sevent"
+name = "test7dd"
 version = "0.1.0"
-distribution = "2201.6.0"
+distribution = "2201.7.0"
 
 [build-options]
 observabilityIncluded = true
