@@ -282,13 +282,13 @@ modules = [
 
 [[package]]
 org = "isuru"
-name = "test"
+name = "test2"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "isuru", packageName = "test", moduleName = "test"}
+	{org = "isuru", packageName = "test2", moduleName = "test2"}
 ]
 
