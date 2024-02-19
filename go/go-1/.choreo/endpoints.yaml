@@ -1,0 +1,7 @@
+version: 0.1
+
+sendpoints:
+- name: Go Greeter
+  port: 8080
+  type: REST
+  networkVisibility: Public
